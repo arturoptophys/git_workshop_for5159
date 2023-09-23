@@ -21,7 +21,9 @@ git push --set-upstream origin master
 git checkout main
 git merge --allow-unrelated-histories master
 
-git some other command
+git tag -a v0.1 -m 'Initial working version'
+git reset v0.1
+
 
 def my_newfunction(input):
 	inter_med = preprocess(input)
