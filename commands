@@ -23,3 +23,7 @@ git merge --allow-unrelated-histories master
 
 git some other command
 
+def my_newfunction(input):
+	return do_stuff(input)
+
+
